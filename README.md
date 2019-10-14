@@ -3,7 +3,7 @@
 
 # ImmutableJsonb
 
- **ImmutableJsonb** is zero dependencies utility library that generates `Jsonb` immutable classes using the [Immutables.org](http://immutables.github.io/) library. 
+ **ImmutableJsonb** is zero runtime dependencies utility library that generates `Jsonb` immutable classes using the [Immutables.org](http://immutables.github.io/) library. 
 
 ## Requirements
 
