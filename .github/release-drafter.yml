@@ -2,7 +2,7 @@ name-template: v$NEXT_PATCH_VERSION 🌈
 tag-template: v$NEXT_PATCH_VERSION
 no-changes-template: No Changes
 branches:
-  - test-rd
+  - master
 categories:
   - title: 🚀 Features
     label: feature
