@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  target-branch: master
+  reviewers:
+  - cchacin
+  labels:
+  - dependabot
+  allow:
+  - dependency-type: development
+  - dependency-type: production
+  ignore:
+  - dependency-name: org.mockito:mockito-junit-jupiter
+    versions:
+    - 3.7.7
+    - 3.8.0
+  - dependency-name: org.mockito:mockito-core
+    versions:
+    - 3.7.7
+    - 3.8.0
+  - dependency-name: org.immutables:value
+    versions:
+    - 2.8.9-ea-1
