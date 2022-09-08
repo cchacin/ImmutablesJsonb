@@ -28,7 +28,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <junit.version>5.8.0</junit.version>
         <assertj.version>3.20.2</assertj.version>
-        <mockito.version>3.12.4</mockito.version>
+        <mockito.version>4.8.0</mockito.version>
         <preparationGoals>clean compile test-compile</preparationGoals>
     </properties>
 
